@@ -4,7 +4,7 @@ public class Food {
     String foodName;
     double price;
     double quantity;
-    java.util.Date expirationDate;
+    int expirationDate;
     int stock;
 
     //Constructor
