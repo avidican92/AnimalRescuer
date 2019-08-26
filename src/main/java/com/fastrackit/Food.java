@@ -1,7 +1,7 @@
 package com.fastrackit;
 
 public class Food {
-    private String foodName;
+    protected String foodName;
     private double price;
     private double quantity;
     private int expirationDate;
@@ -33,11 +33,12 @@ public class Food {
 
 
     //Constructor
-//    public Food(String foodName, double price, double quantity, int expirationDate, int stock){
-//        this.foodName = foodName;
-//        this.price = price;
-//        this.quantity = quantity;
-//        this.expirationDate = expirationDate;
-//        this.stock = stock;
-//    }
+    //public Food(String foodName )//, double price, double quantity, int expirationDate, int stock
+    //{
+    //    this.foodName = foodName;
+       // this.price = price;
+       // this.quantity = quantity;
+        // this.expirationDate = expirationDate;
+      //  this.stock = stock;
+    //}
 }

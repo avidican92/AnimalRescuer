@@ -6,12 +6,25 @@ package com.fastrackit;
  */
 public class App {
 
-//    public static void main(String args[]){
-//        Animal animal = new Animal("Tomas", 2, 10, 7, 8, "Pork", "run" );
-//        Adopter adopter = new Adopter("Adrian", 27,322.98 );
-//        Food food = new Food("Happy Feed", 32,10, 2020-12-6, 100 );
-//        Vet vet = new Vet("Michael", 41,"orthopedics");
+    public static void main(String args[]){
+        Adopter firstAdopter = new Adopter();
+        firstAdopter.setName("John");
+
+        Food firstFood = new Food();
+        firstFood.setFoodName("Purina");
+
+        Animal firstAnimal = new Animal();
+        firstAnimal.setName("Tom");
+
+
+        System.out.println(firstAdopter.name + " " +"just give some" + " " + firstFood.foodName + " " + "to" + " " + firstAnimal.name);
+
+
+
+//        Vt vet = new Vet("Michael", 41,"orthopedics");
 //        Recreational recreational = new Recreational("run");
-//    }
+    }
+
+
 
 }

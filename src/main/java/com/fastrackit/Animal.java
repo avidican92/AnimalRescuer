@@ -9,6 +9,10 @@ public class Animal extends Person{
 
 //Setters
 
+    public void setName(String name){
+        this.name = name;
+    }
+
 public void setHealthLevel(int healthLevel){
     this.healthLevel = healthLevel;
 }
@@ -31,13 +35,12 @@ public void setFavoriteActivity(String favoriteActivity){
 
  //Constructor
 
-public Animal (String name, int age, int healtLevel, int hungryLevel, int moodLevel, String favoriteFood, String favoriteActivity) {
-    this.name = name;
-    this.age = age;
-    healthLevel = healtLevel;
-    this.hungryLevel = hungryLevel;
-    this.moodLevel = moodLevel;
-    this.favoriteFood = favoriteFood;
-    this.favoriteActivity = favoriteActivity;
-}
+//public Animal (String name){ //, int age, int healtLevel, int hungryLevel, int moodLevel, String favoriteFood, String favoriteActivity//   this.name = name;
+//    this.age = age;
+//    healthLevel = healtLevel;
+//    this.hungryLevel = hungryLevel;
+//    this.moodLevel = moodLevel;
+//    this.favoriteFood = favoriteFood;
+//    this.favoriteActivity = favoriteActivity;
+//}
 }

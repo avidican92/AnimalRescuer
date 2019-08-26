@@ -17,10 +17,10 @@ public class Vet extends Person{
    public void setSpecialization(String specialization){
       this.specialization = specialization;
    }
-   
-//   public Vet(String name,int age, String specialization){
-//      this.name = name;
-//      this.age = age;
-//      this.specialization = specialization;
-//   }
+
+   public Vet(String name,int age, String specialization){
+      this.name = name;
+      this.age = age;
+      this.specialization = specialization;
+   }
 }
